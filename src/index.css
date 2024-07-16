@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
+:root {
+  --primary-color: #a6875c !important;
+  --secondary-color: #ffa07a !important;
+  --accent-color: #90ee90 !important;
+  --body-bg-color: #ede4d8 !important;
+  --font-family: "Gloria Hallelujah", cursive !important;
+}
+
+body {
+  background-color: var(--body-bg-color);
+  font-family: var(--font-family);
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+.bg-accent {
+  background-color: var(--accent-color);
+}
+
+.header {
+    min-height: 5rem;
+  }
+
+.nav-link {
+  color: #f0f0f0;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--accent-color);
+  font-size: 1.5em;
+}
+
+.svg-wave {
+  margin-top: -3rem;
+  width: 100%;
+}
