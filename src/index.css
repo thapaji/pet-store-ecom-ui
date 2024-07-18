@@ -5,12 +5,18 @@
   --secondary-color: #ffa07a !important;
   --accent-color: #90ee90 !important;
   --body-bg-color: #ede4d8 !important;
-  --font-family: "Gloria Hallelujah", cursive !important;
+  --primary-font-family: "Gloria Hallelujah", cursive !important;
+  --secondary-font-family: "Roboto", sans-serif;
 }
 
 body {
   background-color: var(--body-bg-color);
-  font-family: var(--font-family);
+  font-family: var(--primary-font-family);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
 .bg-primary {
@@ -25,18 +31,39 @@ body {
   background-color: var(--accent-color);
 }
 
+.login-header {
+  padding: 1px;
+  background-color: var(--accent-color);
+  font-size: 0.8rem;
+  font-family: var(--secondary-font-family);
+}
+
+.logo {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .header {
-    min-height: 5rem;
-  }
+  min-height: 5rem;
+}
 
 .nav-link {
   color: #f0f0f0;
+  font-size: 1.5em;
   transition: color 0.3s, font-size 0.3s;
 }
 
 .nav-link:hover {
   color: var(--accent-color);
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
 .svg-wave {
