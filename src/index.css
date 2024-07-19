@@ -78,7 +78,7 @@ a {
   overflow: hidden;
   transition: transform 0.3s ease;
   cursor: pointer;
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
 }
 
 .tile-card:hover {
