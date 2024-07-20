@@ -6,7 +6,7 @@ import pet3 from "../../assets/pet3_bg.png";
 
 export const Hero = () => {
   return (
-    <Row style={{marginTop:'-16rem', borderBottom:'3px solid #a6875c'}}>
+    <Row>
       <Col>
         <img src={pet1} alt="pet1" style={{ width: "100%" }} />
       </Col>

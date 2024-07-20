@@ -19,6 +19,10 @@ a {
   color: var(--primary-color);
 }
 
+h1 {
+  text-align: center;
+}
+
 .bg-primary {
   background-color: var(--primary-color) !important;
 }
@@ -69,6 +73,7 @@ a {
 .svg-wave {
   margin-top: -3rem;
   width: 100%;
+  margin-bottom: -15rem;
 }
 
 /* Tiles CSS */
